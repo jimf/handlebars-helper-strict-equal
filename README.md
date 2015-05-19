@@ -3,6 +3,7 @@
 A [Handlebars][] helper for strict equality comparison.
 
 [![Build Status][build-badge]][build-status]
+[![Dependency Status][dep-badge]][dep-status]
 
 ## Installation
 
@@ -53,3 +54,5 @@ MIT
 [Handlebars]: http://handlebarsjs.com/
 [build-badge]: https://img.shields.io/travis/jimf/handlebars-helper-strict-equal/master.svg
 [build-status]: https://travis-ci.org/jimf/handlebars-helper-strict-equal
+[dep-badge]: https://img.shields.io/david/jimf/handlebars-helper-strict-equal.svg
+[dep-status]: https://david-dm.org/jimf/handlebars-helper-strict-equal
