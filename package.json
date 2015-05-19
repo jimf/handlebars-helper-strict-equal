@@ -1,0 +1,30 @@
+{
+  "name": "handlebars-helper-strict-equal",
+  "version": "1.0.0",
+  "description": "Handlebars helper for strict equality comparison",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint .",
+    "test": "tape test/*.js",
+    "validate": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimf/handlebars-helper-strict-equal"
+  },
+  "keywords": [
+    "handlebars",
+    "helper"
+  ],
+  "author": "Jim Fitzpatrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimf/handlebars-helper-strict-equal/issues"
+  },
+  "homepage": "https://github.com/jimf/handlebars-helper-strict-equal",
+  "devDependencies": {
+    "handlebars": "^3.0.3",
+    "jshint": "^2.7.0",
+    "tape": "^4.0.0"
+  }
+}
