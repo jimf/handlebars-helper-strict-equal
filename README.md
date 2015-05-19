@@ -35,7 +35,7 @@ Example template file that makes use of the strict-equal helper.
   {{else}}
     <ul class="pagination">
       {{#each linkablePages}}
-        <li {{#equal ../currentPage this}}class="active"{{/isEqual}}>
+        <li {{#equal ../currentPage this}}class="active"{{/equal}}>
           <a href="#">{{this}}</a>
         </li>
       {{/each}}
