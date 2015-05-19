@@ -1,6 +1,8 @@
 # handlebars-helper-strict-equal
 
-A [Handlebars](http://handlebarsjs.com/) helper for strict equality comparison.
+A [Handlebars][] helper for strict equality comparison.
+
+[![Build Status][build-badge]][build-status]
 
 ## Installation
 
@@ -47,3 +49,7 @@ Example template file that makes use of the strict-equal helper.
 ## License
 
 MIT
+
+[Handlebars]: http://handlebarsjs.com/
+[build-badge]: https://img.shields.io/travis/jimf/handlebars-helper-strict-equal/master.svg
+[build-status]: https://travis-ci.org/jimf/handlebars-helper-strict-equal
