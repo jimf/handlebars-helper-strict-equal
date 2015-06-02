@@ -38,7 +38,7 @@ test('strict-equal', function(assert) {
     });
 
     function compileInvalidTemplate() {
-        var source = '{{equal lvalue}}true block{{else}}false block{{/equal}}',
+        var source = '{{#equal lvalue}}true block{{else}}false block{{/equal}}',
             template = Handlebars.compile(source);
 
         template({ lvalue: 'foo', rvalue: 'bar' });
