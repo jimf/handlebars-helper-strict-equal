@@ -2,8 +2,9 @@
 
 A [Handlebars][] helper for strict equality comparison.
 
-[![Build Status][build-badge]][build-status]
 [![npm Version][npm-badge]][npm]
+[![Build Status][build-badge]][build-status]
+[![Test Coverage][coverage-badge]][coverage-result]
 [![Dependency Status][dep-badge]][dep-status]
 
 ## Installation
@@ -57,5 +58,7 @@ MIT
 [build-status]: https://travis-ci.org/jimf/handlebars-helper-strict-equal
 [npm-badge]: https://img.shields.io/npm/v/handlebars-helper-strict-equal.svg
 [npm]: https://www.npmjs.org/package/handlebars-helper-strict-equal
+[coverage-badge]: https://img.shields.io/coveralls/jimf/handlebars-helper-strict-equal.svg
+[coverage-result]: https://coveralls.io/r/jimf/handlebars-helper-strict-equal
 [dep-badge]: https://img.shields.io/david/jimf/handlebars-helper-strict-equal.svg
 [dep-status]: https://david-dm.org/jimf/handlebars-helper-strict-equal
